@@ -1,0 +1,396 @@
+@import 'block/header', 'block/footer', 'block/general', 'block/about', 'block/subscribe', 'block/index';
+
+// * Import fonts
+// @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Fraunces:wght@900&display=swap');
+
+
+
+// * Import offline fonts
+
+// * Fraunces
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-300.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-300.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-regular.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-500.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-500.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-600.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-600.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-700.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-700.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-900.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-900.woff') format('woff');
+}
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-ext_latin-800.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-ext_latin-800.woff') format('woff');
+}
+
+// * Barlow
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-300.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-300.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-regular.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-500.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-500.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-700.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-700.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-600.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-600.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-900.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-900.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-ext_latin-800.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-ext_latin-800.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Fraunces_9pt';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../font/Fraunces_9pt\,Soft-Thin.woff2') format('woff2'),
+    url('../font/Fraunces_9pt\,Soft-Thin.woff') format('woff');
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+//  * FOR DESKTOP
+main{
+    .container{
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+.btn {
+    @extend %main-button-default;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* padding-top: 100px; Location of the box */
+    padding-top: 30px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border-radius: 8px;
+        width: 540px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+    }
+}
+
+
+.modalbox {
+    width: 540px;
+    height: 597px;
+    border-radius: 8px;
+    .modalbox__header {
+        width: 540px;
+        height: 136px;
+        padding-top: 48px;
+        padding-left: 56px;
+        background: #333D4B;
+        border-radius: 8px 8px 0px 0px;
+        .modalbox__title {
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFF;
+        }
+    }
+    .modalbox__body {
+        width: 540px;
+        height: 461px;
+        padding: 57px 56px 56px 56px;
+        .modalbox__text {
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: #83888F;
+            margin-bottom: 7px;
+            span{
+                color: #0E8784;
+            }
+        }
+        .modalbox__copy {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            opacity: 0.8;
+            margin-bottom: 47px;
+        }
+        .modalbox__footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .modalbox__subtitle {
+                font-family: 'Fraunces', serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+            }
+            .modalbox__btn {
+                font-family: 'Fraunces', serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+// * FOR TABLET
+@media only screen and (max-width: 768px){
+    main{
+        .container{
+            width: 690px;
+            margin: 0 auto;
+        }
+    }
+}
+
+// * FOR MOBILE
+@media only screen and (max-width: 375px){
+    main{
+        .container{
+            // width: 375px;
+            // margin: 0;
+            width: 327px;
+            margin: 0 auto;
+        }
+    }
+    
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        /* padding-top: 100px; Location of the box */
+        padding-top: 30px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            border-radius: 8px;
+            width: 327px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s;
+        }
+    }
+    
+    
+    .modalbox {
+        width: 327px;
+        height: 597px;
+        border-radius: 8px;
+        .modalbox__header {
+            width: 327px;
+            height: 88px;
+            padding-top: 28px;
+            padding-left: 24px;
+            background: #333D4B;
+            border-radius: 8px 8px 0px 0px;
+            .modalbox__title {
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+        .modalbox__body {
+            width: 327px;
+            height: 461px;
+            padding: 40px 24px 24px 24px;
+            .modalbox__text {
+                margin-bottom: 0;
+                span{
+                    color: #0E8784;
+                }
+            }
+            .modalbox__copy {
+                font-size: 15px;
+                line-height: 25px;
+                opacity: 0.8;
+                margin-bottom: 24px;
+            }
+            .modalbox__footer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row-reverse;
+                width: 279px;
+                height: 56px;
+                background: #0E8784;
+                border-radius: 6px;
+                padding: 15px 31px;
+                .modalbox__subtitle {
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #FEFCF7;
+                    width: 156px;
+                    height: 25px;
+                }
+                .modalbox__btn {
+                    font-size: 18px;
+                    line-height: 25px;
+                    width: 150px;
+                    padding: 0;
+                    padding-right: 16px;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        width: 10px;
+                        height: 3px;
+                        background-color: #fff;
+                        display: block;
+                        position: absolute;
+                        left: 96px;
+                        top: 50%;
+                        border-bottom-right-radius: 8px;
+                        border-top-left-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключение иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Подключение бутстрап -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/modal.css"> -->
+    
+    <title>New COffee web</title>
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="#" class="nav__logo">
+                <img src="./img/header-logo.svg" alt="header-logo" class="nav__logo__img">
+            </a>
+            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About us</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Create your plan</a></li>
+            </ul>
+            
+            <input id="openChechbox" class="barmenu__checkbox_bar" type="checkbox">
+            
+            
+            <ul class="nav__toggle">
+                <li class="item__barsOpen"></li>
+                <li class="item__barsOpen"></li>
+                <li class="item__barsOpen"></li>
+            </ul>
+            
+            <div id="barMenu" class="nav__bar-menu">
+                <ul class="bar__nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About us</a></li>
+                    <li class="nav__item"><a href="subscribe.html" class="nav__link">Create your plan</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        
+        <div class="container">
+            <section class="creatPlan">
+                <div class="createPlan__body">
+                    <h1 class="createPlan__title">Create a plan</h1>
+                    <p class="createPlan__copy">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.</p>
+                </div>
+            </section>
+        </div>
+        
+        <section class="examplePlan">
+            
+            <div class="ovals__wrapper">
+                <button class="oval"></button>
+                <button class="oval"></button>
+                <button class="oval"></button>
+            </div>
+            
+            <ul class="examplePlan__list">
+                <li class="examplePlan__item">
+                    <p class="examplePlan__number">01</p>
+                    <h2 class="examplePlan__title">Pick your coffee</h2>
+                    <p class="examplePlan__copy">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                </li>
+                <li class="examplePlan__item">
+                    <p class="examplePlan__number">02</p>
+                    <h2 class="examplePlan__title">Choose the frequency</h2>
+                    <p class="examplePlan__copy">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                </li>
+                <li class="examplePlan__item">
+                    <p class="examplePlan__number">03</p>
+                    <h2 class="examplePlan__title">Receive and enjoy!</h2>
+                    <p class="examplePlan__copy">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                </li>
+            </ul>
+        </section>
+        
+        <div class="container">
+            <section class="choice">
+                
+                <!-- start OPTION__LIST -->
+                <ul class="options__list">
+                    <li class="options__item">
+                        <span class="options__number">01</span>
+                        <h3 class="options__title">Preferences</h3>
+                    </li>
+                    <li class="options__item">
+                        <span class="options__number">02</span>
+                        <h3 class="options__title">Bean Type</h3>
+                    </li>
+                    <li class="options__item">
+                        <span class="options__number">03</span>
+                        <h3 class="options__title">Quantity</h3>
+                    </li>
+                    <li class="options__item">
+                        <span class="options__number">04</span>
+                        <h3 class="options__title">Grind Option</h3>
+                    </li>
+                    <li class="options__item">
+                        <span class="options__number">05</span>
+                        <h3 class="options__title">Deliveries </h3>
+                    </li>
+                </ul>
+                <!-- finish OPTION__LIST -->
+                
+                
+                <!-- start SELECTION__LIST -->
+                <ul class="selections__list">
+                    
+                    <li class="selections__item kind">
+                        <button class="accordion">
+                            <h2 class="selections__title">How do you drink your coffee?</h2>
+                            <i></i>
+                        </button>
+                        <ul class="selections__sublist">
+                            
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Capsule</h3>
+                                <p class="selections__copy">Compatible with Nespresso systems and similar brewers</p>
+                            </li>
+                            <li class="selections__subitem cyan">
+                                <h3 class="selections__subtitle">Filter</h3>
+                                <p class="selections__copy">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Espresso</h3>
+                                <p class="selections__copy">Dense and finely ground beans for an intense, flavorful experience</p>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="selections__item type">
+                        <button class="accordion">
+                            <h2 class="selections__title">What type of coffee?</h2>
+                            <i></i>
+                        </button>
+                        <ul class="selections__sublist">
+                            
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Single Origin</h3>
+                                <p class="selections__copy">Distinct, high quality coffee from a specific family-owned farm</p>
+                            </li>
+                            <li class="selections__subitem cyan">
+                                <h3 class="selections__subtitle">Decaf</h3>
+                                <p class="selections__copy">Just like regular coffee, except the caffeine has been removed</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Blended</h3>
+                                <p class="selections__copy">Combination of two or three dark roasted beans of organic coffees</p>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="selections__item amount">
+                        <button class="accordion">
+                            <h2 class="selections__title">How much would you like?</h2>
+                            <i></i>
+                        </button>
+                        <ul class="selections__sublist">
+                            
+                            <li class="selections__subitem cyan">
+                                <h3 class="selections__subtitle">250g</h3>
+                                <p class="selections__copy">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">500g</h3>
+                                <p class="selections__copy">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">1000g</h3>
+                                <p class="selections__copy">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="selections__item grind">
+                        <button class="accordion">
+                            <h2 class="selections__title">Want us to grind them?</h2>
+                            <i></i>
+                        </button>
+                        <ul class="selections__sublist">
+                            
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Wholebean</h3>
+                                <p class="selections__copy">Best choice if you cherish the full sensory experience</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Filter</h3>
+                                <p class="selections__copy">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                            </li>
+                            <li class="selections__subitem cyan">
+                                <h3 class="selections__subtitle">Cafetiére</h3>
+                                <p class="selections__copy">Course ground beans specially suited for french press coffee</p>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="selections__item time">
+                        <button class="accordion">
+                            <h2 class="selections__title">How often should we deliver?</h2>
+                            <i></i>
+                        </button>
+                        <ul class="selections__sublist">
+                            
+                            <li class="selections__subitem cyan">
+                                <h3 class="selections__subtitle">Every week</h3>
+                                <p class="selections__copy">$7.20 per shipment. Includes free first-class shipping.</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Every 2 weeks</h3>
+                                <p class="selections__copy">$9.60 per shipment. Includes free priority shipping.</p>
+                            </li>
+                            <li class="selections__subitem">
+                                <h3 class="selections__subtitle">Every month</h3>
+                                <p class="selections__copy">$12.00 per shipment. Includes free priority shipping.</p>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li id="summary" class="selections__item__bottom summary">
+                        <div class="summary__body">
+                            <p class="summary__copy">Order Summary</p>
+                            <h4 id="summaryContent" class="summary__content">“I drink my coffee as <span>Filter</span>, with a <span>Decaf</span> type of bean. <span>250g</span> ground ala <span>Cafetiére</span>, sent to me <span>Every Week</span>.”</h4>
+                        </div>
+                        
+                    </li>
+                    
+                </ul>
+                <!-- finish SELECTION__LIST -->
+                
+                <button id="myBtn" class="btn">Create my plan!</button>
+                
+                <!-- The Modal -->
+                
+            </section>
+            
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+
+                    <div class="modalbox">
+                        <div class="modalbox__header">
+                            <h2 class="modalbox__title">Order Summary</h2>
+                        </div>
+                        <div class="modalbox__body">
+                            <h3 class="modalbox__text">“I drink my coffee as <span>Filter</span>, with a <span>Decaf</span> type of bean. <span>250g</span> ground ala <span>Cafetiére</span>, sent to me <span>Every Week</span>.”</h3>
+                            <p class="modalbox__copy">Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+                            <div class="modalbox__footer">
+                                <h2 class="modalbox__subtitle">$14.00/ mo</h2>
+                                <button class="modalbox__btn btn">Checkout</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>  
+        
+        
+    </main>
+    
+    
+    
+    <!-- FOOTER -->
+    <footer>
+        
+        <nav class="footer__nav">
+            <a href="#" class="nav__logo">
+                <img src="./img/footer-logo.svg" alt="footer-logo" class="nav__logo__img footer__logo">
+            </a>
+            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About us</a></li>
+                <li class="nav__item"><a href="subscribe.html" class="nav__link">Create your plan</a></li>
+            </ul>
+            
+            <div class="nav__network">
+                <a href="https://www.facebook.com/" target="_blank" class="nav__network_link">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://twitter.com/?lang=ru" target="_blank" class="nav__network_link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="nav__network_link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </nav>
+        
+    </footer>
+    
+    
+    
+    
+    <!-- JavaScript -->
+    <script src="./js/app.js"></script>
+    <script src="./js/modal.js"></script>
+    
+</body>
+</html>

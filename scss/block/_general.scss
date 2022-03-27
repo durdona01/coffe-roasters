@@ -1,0 +1,61 @@
+// COLORS
+$dark-footer: #2C343E;
+$dark-syan: #0E8784;
+$dark-grey-blue: #333D4B;
+$pale-orange: #FDD6BA;
+$light-cream: #FEFCF7;
+$grey: #83888F;
+$button-hover: #66D2CF;
+$button-disabled: #E2DEDB;
+$barlow: 'Barlow';
+$text-size: 16px;
+
+
+
+
+
+%main-button-default{
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    border: none;
+    background-color: $dark-syan;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: $light-cream;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+%oval{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 2px solid $dark-syan;
+    background-color: #fff;
+    position: relative;
+    margin-right: 349px;
+    margin-bottom: 67px;
+}
+
+
+%style-liner-gradient-desktop{
+    padding-top: 80px;
+    box-sizing: border-box;
+    color: black;
+    background: -webkit-linear-gradient(  (rgba(148, 148, 148, 0.5), rgb(254, 252, 247)) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.3;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+

@@ -1,0 +1,420 @@
+
+// *** FOR ABOUT.html
+//  * FOR DESKTOP
+main{
+    .container{
+        width: 1280px;
+        margin: 0 auto;
+        .aboutUs{
+            height: 450px;
+            background-image: url('../img/1-Desktop/Bitmap-1.png');
+            border-radius: 10px;
+            margin-bottom: 168px;
+            position: relative;
+            .aboutUs__body{
+                position: absolute;
+                width: 445px;
+                height: 176px;
+                left: 85px;
+                top: 137px;
+                color: $light-cream;
+                .aboutUs__title{
+                    font-family: 'Fraunces', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 48px;
+                    margin-bottom: 24px;
+                }
+                .aboutUs__copy{
+                    font-family: 'Barlow', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    opacity: 0.8;
+                }
+            }
+        }
+        
+        .commitment{
+            display: flex;
+            height: 520px;
+            margin-bottom: 256px;
+            position: relative;
+            .commitment__figure{
+                position: absolute;
+                left: 40px;
+                margin-right: 125px;
+                background-image: url('../img/1-Desktop/Commitment1.png');
+                width: 445px;
+                height: 520px;
+            }
+            .commitment__body{
+                position: absolute;
+                width: 540px;
+                height: 340px;
+                left: 610px;
+                .commitment__title{
+                    font-family: 'Fraunces', serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 48px;
+                    color: $dark-grey-blue;
+                    margin-bottom: 32px;
+                }
+                .commitment__copy{
+                    font-family: 'Barlow', serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+            }
+            
+        }
+        
+        .quality{
+            height: 562px;
+            display: flex;
+            background-color: $dark-footer;
+            margin-bottom: 168px;
+            position: relative;
+            border-radius: 10px;
+            .quality__body{
+                position: absolute;
+                width: 540px;
+                height: 210px;
+                left: 85px;
+                top: 88px;
+                color: $light-cream;
+                .quality__title{
+                    font-family: 'Fraunces', serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 48px;
+                    margin-bottom: 32px;
+                }
+                .quality__copy{
+                    font-family: 'Barlow', serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+            }
+            .quality__figure{
+                position: absolute;
+                left: 750px;
+                top: -88px;
+                background-image: url('../img/1-Desktop//Quality1.png');
+                width: 445px;
+                height: 474px;
+            }
+        }
+        
+        .headquarters{
+            width: 1045px;
+            height: 366px;
+            margin-left: 85px;
+            margin-bottom: 168px;
+            .headquarters__title{
+                font-family: 'Fraunces', serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                color: $grey;
+                margin-bottom: 72px;
+            }
+            .headquarters__list{
+                height: 262px;
+                display: flex;
+                justify-content: space-between;
+                .headquarters__item{
+                    list-style-type: none;
+                    color: $dark-grey-blue;
+                    .headquarters__subtitle{
+                        font-family: 'Fraunces', serif;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 32px;
+                        line-height: 36px;
+                        margin-bottom: 24px;
+                    }
+                    .headquarters__copy{
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+                    .headquarters__img{
+                        margin-bottom: 46px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// * FOR TABLET
+@media only screen and (max-width: 768px){
+    main{
+        .container{
+            width: 690px;
+            margin: 0 auto;
+            .aboutUs{
+                height: 400px;
+                background-image: url('../img/2-Tablet/Bitmap-2.png');
+                border-radius: 10px;
+                margin-bottom: 144px;
+                position: relative;
+                .aboutUs__body{
+                    position: absolute;
+                    width: 398px;
+                    height: 164px;
+                    left: 58px;
+                    top: 118px;
+                    color: $light-cream;
+                    .aboutUs__title{
+                        font-size: 32px;
+                        line-height: 40px;
+                    }
+                    .aboutUs__copy{
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                        opacity: 0.8;
+                    }
+                }
+            }
+            
+            .commitment{
+                display: flex;
+                height: 520px;
+                margin-bottom: 304px;
+                position: relative;
+                .commitment__figure{
+                    position: absolute;
+                    left: 0;
+                    margin-right: 0;
+                    background-image: url('../img/2-Tablet/Commitment-2.png');
+                    width: 281px;
+                    height: 470px;
+                }
+                .commitment__body{
+                    position: absolute;
+                    width: 339px;
+                    height: 453px;
+                    left: 350px;
+                    .commitment__title{
+                        font-size: 32px;
+                        line-height: 48px;
+                        margin-bottom: 30px;
+                    }
+                    .commitment__copy{
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+                
+            }
+            
+            .quality{
+                height: 488px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 144px;
+                position: relative;
+                .quality__body{
+                    position: absolute;
+                    width: 540px;
+                    height: 197px;
+                    left: 75px;
+                    top: 224px;
+                    text-align: center;
+                    .quality__title{
+                        font-size: 32px;
+                        line-height: 48px;
+                        margin-bottom: 24px;
+                    }
+                    .quality__copy{
+                        font-size: 15px;
+                        line-height: 25px;
+                        
+                    }
+                }
+                .quality__figure{
+                    position: absolute;
+                    left: 58px;
+                    top: -160px;
+                    background-image: url('../img/2-Tablet/Quality-2.png');
+                    width: 573px;
+                    height: 320px;
+                    
+                }
+            }
+            
+            .headquarters{
+                width: 688px;
+                margin-left: 0;
+                margin-bottom: 144px;
+                .headquarters__list{
+                    height: 262px;
+                    display: flex;
+                    justify-content: space-between;
+                    .headquarters__item{
+                        list-style-type: none;
+                        color: $dark-grey-blue;
+                        .headquarters__subtitle{
+                            font-size: 24px;
+                            margin-bottom: 21px;
+                        }
+                        .headquarters__img{
+                            margin-bottom: 46px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// * FOR MOBILE
+@media only screen and (max-width: 375px){
+    main{
+        .container{
+            width: 327px;
+            margin: 0 auto;
+            .aboutUs{
+                background-image: url('../img/3-Mobile/Bitmap-3.png');
+                width: 327px;
+                height: 400px;
+                margin-bottom: 120px;
+                position: relative;
+                .aboutUs__body{
+                    position: absolute;
+                    width: 279px;
+                    height: 202px;
+                    left: 24px;
+                    top: 111px;
+                    text-align: center;
+                    .aboutUs__title{
+                        font-size: 28px;
+                        line-height: 28px;
+                        margin-bottom: 24px;
+                    }
+                    .aboutUs__copy{
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+            }
+            
+            .commitment{
+                display: flex;
+                flex-direction: column;
+                height: 901px;
+                margin-bottom: 198px;
+                position: relative;
+                .commitment__figure{
+                    position: absolute;
+                    left: 0;
+                    background-image: url('../img/3-Mobile/Commitment-3.png');
+                    width: 327px;
+                    height: 400px;
+                }
+                .commitment__body{
+                    position: absolute;
+                    width: 327px;
+                    height: 453px;
+                    top: 448px;
+                    left: 0;
+                    text-align: center;
+                    .commitment__title{
+                        font-size: 32px;
+                        line-height: 48px;
+                        margin-bottom: 30px;
+                    }
+                    .commitment__copy{
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+                
+            }
+            
+            .quality{
+                height: 509px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 120px;
+                position: relative;
+                .quality__body{
+                    width: 279px;
+                    height: 306px;
+                    position: absolute;
+                    top: 142px;
+                    text-align: center;
+                    left: 22px;
+                    .quality__title{
+                        font-size: 28px;
+                        line-height: 28px;
+                        margin-bottom: 24px;
+                    }
+                    .quality__copy{
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+                .quality__figure{
+                    position: absolute;
+                    left: 23px;
+                    top: -78px;
+                    background-image: url('../img/3-Mobile/Quality-3.png');
+                    width: 279px;
+                    height: 156px;
+                }
+            }
+
+            .headquarters{
+                width: 327px;
+                height: 1044px;
+                margin-bottom: 120px;
+                .headquarters__title{
+                    text-align: center;
+                    margin-bottom: 72px;
+                }
+                .headquarters__list{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .headquarters__item{
+                        margin-bottom: 80px;
+                        text-align: center;
+                        &:nth-child(3){
+                            margin-bottom: 0;
+                        }
+                        .headquarters__subtitle{
+                            font-size: 28px;
+                            line-height: 36px;
+                            margin-bottom: 22px;
+                        }
+                        .headquarters__img{
+                            margin-bottom: 46px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
