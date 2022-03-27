@@ -971,7 +971,7 @@ main .container .headquarters .headquarters__list .headquarters__item .headquart
 }
 
 .creatPlan .createPlan__body .createPlan__title {
-  font-family: 'Fraunces 9pt';
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
